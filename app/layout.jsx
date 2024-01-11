@@ -1,10 +1,10 @@
-import { Quicksand } from 'next/font/google'
+import { Rubik } from 'next/font/google'
 import './globals.css'
 
 //components
-import Navbar from './components/Navbar'
+import Navbar from '/components/Navbar'
 
-const quicksand = Quicksand({ subsets: ['latin'] })
+const rubik = Rubik({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Create Next App',
@@ -14,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={quicksand.className}>
+      <body className={`${rubik.className} bg-black text-offwhite`}>
         <Navbar/>
         {children}
       </body>

@@ -2,8 +2,8 @@
 
 import React from 'react'
 
-export default function Page1() {
+export default function PremierLeague() {
   return (
-    <div>New page 1</div>
+    <div>Premier League</div>
   )
 } 
